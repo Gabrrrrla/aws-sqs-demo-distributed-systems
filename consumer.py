@@ -41,7 +41,6 @@ try:
                 time.sleep(2) 
 
                 # exclui a mensagem da fila após o processamento
-                
                 receipt_handle = message['ReceiptHandle']
                 sqs.delete_message(
                     QueueUrl=queue_url,
