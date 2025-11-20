@@ -15,7 +15,7 @@ try:
     # a mensagem em si
     mensagem_body = {
         'id_pedido': 123,
-        'produto': 'Laptop',
+        'produto': 'Bomba',
         'quantidade': 1
     }
 
