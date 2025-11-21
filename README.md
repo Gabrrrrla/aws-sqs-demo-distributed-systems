@@ -2,6 +2,10 @@
 
 Este projeto é uma implementação prática de um sistema distribuído utilizando o padrão **Produtor-Consumidor** via **Amazon Simple Queue Service (SQS)**. O projeto foi desenvolvido como parte da disciplina de Sistemas Distribuídos.
 
+Alunas: Gabriela Bley Rodrigues e Luisa Becker dos Santos
+
+Professor: Rodrigo Righi
+
 ## Descrição
 
 O sistema consiste em dois scripts Python independentes que se comunicam de forma assíncrona:
@@ -20,3 +24,6 @@ O projeto utiliza a biblioteca `boto3` para interagir com a AWS.
 ```bash
 pip install boto3
 ```
+
+# Execução
+O projeto deve ser executado em dois terminais. Primeiro, rodar `setupQueue.py` e logo após o `consumer.py`. Uma vez que esses dois forem executados, abra outro terminal e rode `producer.py`.
